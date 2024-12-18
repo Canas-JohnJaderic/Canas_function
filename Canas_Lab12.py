@@ -24,7 +24,7 @@ while order not in menu:
     total += menu[order]
     print(f"You have selected {order}, which costs Pesos {menu[order]:.2f}.")
     # want order again?
-    ordgain = input("---------------------\nWould you like to order another Item? Yes or No\n---------------------")
+    ordgain = input("---------------------\nWould you like to order another Item? Yes or No\n---------------------\nEnter Here: ")
     if ordgain == "no" or "No":
         break
     elif ordgain != "yes" or "Yes":
