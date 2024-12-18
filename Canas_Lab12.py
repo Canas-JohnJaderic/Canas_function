@@ -28,7 +28,7 @@ while order not in menu:
     if ordgain == "no" or "No":
         break
     elif ordgain != "yes" or "Yes":
-        print("Invalid input. Please enter 'Yes' or 'No'.")
+        print("Invalid input. Please enter 'Yes' or 'No' only.")
 
 #Gcash payment real
 while True:
@@ -40,5 +40,6 @@ while True:
             change = pay - total
             print(f"Thank you for your payment! Your change is Pesos {change:.2f}")
             break
+    #if enter is not valid        
     except ValueError:
-        print("Invalid input. Please enter a sufficient amount for payment.")
+        print("Invalid input. Please enter a valid amount for payment.")
