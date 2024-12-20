@@ -9,7 +9,6 @@ menu = {
     "Vegan Salad": 199,
     "Wagyu Beef": 299
 }
-#note to self make definition
 
 #display of ietms
 def menushow():
